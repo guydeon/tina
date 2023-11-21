@@ -16,7 +16,7 @@ def executa_comando():
             comando = audio.recognize_google(voz, language='pt-BR')
             comando = comando.lower()
             if 'tina' in comando:
-                comando = comando.replace('tina', '')
+                comando = comando.replace('guydeon', '')
                 maquina.say(comando)
                 maquina.runAndWait()
 
